@@ -2,7 +2,7 @@ from google import genai
 import streamlit as st
 
 st.title(
-    "🤖 Tutor de Programación con IA del IES Pío Baroja Departamento de Informática"
+    "🤖 Tutor de Programación con IA del IES Pío Baroja Departamento de Informática. "
 )
 
 # 1. Definir las instrucciones de sistema (rol socrático)
