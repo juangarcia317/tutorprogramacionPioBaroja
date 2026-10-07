@@ -41,7 +41,7 @@ if user_input := st.chat_input("Escribe tu duda o pega tu código aquí..."):
           contents.append(f"{m['role']}: {m['content']}")
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-3.8-flash",
             contents=contents,
             config={"system_instruction": system_prompt},
         )
